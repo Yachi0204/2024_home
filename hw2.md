@@ -1,3 +1,4 @@
+## PERT/CPM 圖
 ```mermaid
 graph TD;
     A[研擬計畫<br>開始: 2024-10-05<br>結束: 2024-10-05<br>時長: 1天] --> B[任務分配<br>開始: 2024-10-06<br>結束: 2024-10-09<br>時長: 4天];
@@ -17,7 +18,7 @@ graph TD;
     classDef default fill:#add8e6,stroke:#333,stroke-width:2px;
     classDef keyTask fill:#ffcccb,stroke:#ff0000,stroke-width:2px;
 ```
-
+## 甘特圖
 ```mermaid
 gantt
     title 專案甘特圖
@@ -36,7 +37,7 @@ gantt
     使用者測試    :         des11, after des6 des9 des10, 25d
 
 ```
-
+## PERT/CPM 關鍵路徑圖
 ```mermaid
 graph TD;
     A[研擬計畫<br>開始: 2024-10-05<br>結束: 2024-10-05<br>時長: 1天] --> B[任務分配<br>開始: 2024-10-06<br>結束: 2024-10-09<br>時長: 4天];
